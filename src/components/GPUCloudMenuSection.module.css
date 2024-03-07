@@ -1,0 +1,28 @@
+.gpuCloud {
+  flex: 1;
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.gpuCloudSection,
+.heading,
+.menuItemParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.gpuCloudSection,
+.menuItemParent {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.gpuCloudSection {
+  gap: 4px 0;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--dark);
+  font-family: var(--font-sf-pro-display);
+}

@@ -1,0 +1,208 @@
+.getStartedWith {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.logoDark82b2cc7df5d987ca34bfIcon {
+  width: 21.7px;
+  position: relative;
+  height: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.logoDark82b2cc7df5d987ca34bf1 {
+  width: 24px;
+  height: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.1447376012802124px 0 1.144736886024475px;
+  box-sizing: border-box;
+}
+.frame,
+.logoDark82b2cc7df5d987ca34bf,
+.svg {
+  width: 24px;
+  height: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame,
+.svg {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.svg {
+  width: 27px;
+  height: 27px;
+  align-items: center;
+  padding: 0 0 1.509765625px 3.41015625px;
+  box-sizing: border-box;
+}
+.uploadCodeAnd {
+  position: relative;
+  font-weight: 500;
+}
+.heading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 12px;
+}
+.justLinkYour {
+  margin: 0;
+}
+.justLinkYourContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray);
+}
+.content {
+  width: 453px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px 0;
+}
+.svgIcon {
+  width: 18px;
+  position: relative;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.upTo100 {
+  position: relative;
+  font-weight: 500;
+  white-space: pre-wrap;
+}
+.content1,
+.heading1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.heading1 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--gap-xs);
+}
+.content1 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px 0;
+}
+.contentAL,
+.startNow {
+  font-size: var(--font-size-lg);
+}
+.contentAL {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px 79px;
+}
+.startNow {
+  position: relative;
+  font-weight: 500;
+  font-family: var(--font-sf-pro-display);
+  color: var(--white);
+  text-align: left;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) 58px;
+  background-color: var(--primary-color);
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.seeDocumentation {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-sf-pro-display);
+  color: #b4b4b4;
+  text-align: left;
+}
+.svgIcon1 {
+  width: 12px;
+  position: relative;
+  height: 12.8px;
+  object-fit: cover;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-base);
+  background-color: var(
+    --console-paperspace-com-te2llsck5-machines-1440x8107636108398438-default-nero-02
+  );
+  border-radius: var(--br-9xs);
+  box-shadow: 0 0 0 1px rgba(74, 85, 104, 0.4) inset;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 24px;
+}
+.buttonsAL,
+.mainContent,
+.training {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonsAL {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.mainContent,
+.training {
+  height: 1024px;
+  box-sizing: border-box;
+}
+.mainContent {
+  flex: 1;
+  flex-direction: column;
+  padding: 134px 0;
+  gap: 80px;
+  text-align: left;
+  font-size: 36px;
+  color: var(--color-gray-100);
+  font-family: var(--font-sf-pro-display);
+}
+.training {
+  width: 100%;
+  position: relative;
+  border-radius: 5px;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 0 70px 0 0;
+  gap: 0 100px;
+  min-width: 1000px;
+}

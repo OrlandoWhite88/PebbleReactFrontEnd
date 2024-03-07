@@ -1,0 +1,63 @@
+.settings {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.heading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.icon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  object-fit: cover;
+}
+.usage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.training {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 117.02999877929688px;
+}
+.menuItem,
+.menuItemParent,
+.settingsSection {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.menuItem {
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: var(--padding-3xs) var(--padding-13xl) var(--padding-3xs)
+    var(--padding-xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  min-width: 37px;
+}
+.menuItemParent,
+.settingsSection {
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--text-color);
+}
+.settingsSection {
+  gap: 4px 0;
+  z-index: 3;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--dark);
+  font-family: var(--font-sf-pro-display);
+}

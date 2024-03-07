@@ -1,0 +1,68 @@
+.logoDarkIcon {
+  width: 21.7px;
+  position: relative;
+  height: 25px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.pebble {
+  flex: 1;
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.logo {
+  border-radius: var(--br-9xs);
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 3.99px;
+  min-width: 50px;
+  max-width: 150px;
+  z-index: 0;
+}
+.iconchevronsLeft {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.iconchevronsLeftWrapper {
+  margin: 0 !important;
+  position: absolute;
+  top: 48px;
+  right: -16px;
+  border-radius: var(--br-21xl);
+  background-color: var(--dark);
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  z-index: 4;
+}
+.menuBar {
+  margin: 0;
+  align-self: stretch;
+  width: 212px;
+  background-color: var(--white);
+  border-right: 0.9px solid var(--text-color);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-base);
+  position: relative;
+  gap: 24px 0;
+  min-width: var(--number);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--dark);
+  font-family: var(--font-sf-pro-display);
+}
